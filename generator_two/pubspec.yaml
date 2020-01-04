@@ -1,0 +1,10 @@
+name: generator_two
+description: This is the second generator
+version: 0.0.1
+documentation:
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  source_gen: ^0.9.0

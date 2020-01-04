@@ -1,0 +1,8 @@
+builders:
+  generator_two:
+    import: "package:generator_two/builder.dart"
+    builder_factories: ["generatorTwo"]
+    build_extensions: {".dart": [".two.dart"]}
+    auto_apply: root_package
+    build_to: source
+    required_inputs: [.one.dart]

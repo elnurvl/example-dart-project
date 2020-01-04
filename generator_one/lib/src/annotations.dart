@@ -1,0 +1,3 @@
+class FirstAnnotation {
+  const FirstAnnotation();
+}

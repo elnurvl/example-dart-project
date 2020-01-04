@@ -1,0 +1,7 @@
+builders:
+  generator_one:
+    import: "package:generator_one/builder.dart"
+    builder_factories: ["generatorOne"]
+    build_extensions: {".dart": [".one.dart"]}
+    auto_apply: root_package
+    build_to: source

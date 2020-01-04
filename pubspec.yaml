@@ -1,0 +1,14 @@
+name: build_issue
+description: A dart project with multiple generators.
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+dev_dependencies:
+  build_runner:
+  generator_one:
+    path: generator_one
+  generator_two:
+    path: generator_two
